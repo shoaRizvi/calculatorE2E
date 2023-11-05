@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "seetreat e-2-e tests",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": true
+},
+  "scripts": {
+    "test:run": "node_modules/.bin/cypress run",
+    "test:open": "node_modules/.bin/cypress open --browser chrome"
+  },
+  "author": "shoa_rizvi",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.4.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
